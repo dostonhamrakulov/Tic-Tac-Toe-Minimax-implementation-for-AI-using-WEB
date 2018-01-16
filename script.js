@@ -46,14 +46,14 @@ function move(element, player, color) {
 
         if(winning(board, player)) {
             setTimeout(function() {
-                alert('YOU WIN!');
+                alert('You win the game!');
                 reset();
             }, 300);
             return;
         }
         else if(round > 8) {
             setTimeout(function() {
-                alert('DRAW!');
+                alert('It is draw!');
                 reset();
             }, 300);
             return;
@@ -68,7 +68,7 @@ function move(element, player, color) {
 
             if(winning(board, ai)) {
                 setTimeout(function() {
-                    alert('YOU LOSE!');
+                    alert('You lose the game!');
                     reset();
                 }, 300);
                 return;
