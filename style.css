@@ -46,6 +46,25 @@ table {
     transform: translateX(-50%);
     top: 200px;
 }
+/*
+.first {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+}
+.secnd {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+}
+.third {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+}*/
 
 .option {
     width: 100px;
