@@ -77,7 +77,7 @@ function move(element, player, color) {
         }
     }
 }
-
+//Doston Hamrakulov dostonhamrakulov doston.hamrakulov@gmail.com
 function winning(_board, player) {
     if((_board[0] == player && _board[1] == player && _board[2] == player) ||
         (_board[3] == player && _board[4] == player && _board[5] == player) ||
